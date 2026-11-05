@@ -1,7 +1,9 @@
 # ---> Zig
 .zig-cache/
 zig-out/
+zig-pkg/
 *.o
+pandecode.dump.*
 
 # ---> Nix
 # Ignore build outputs from performing a nix-build or `nix build` command

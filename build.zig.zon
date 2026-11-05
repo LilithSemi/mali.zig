@@ -1,0 +1,18 @@
+.{
+    .name = .mali,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .fingerprint = 0x5c3bac821948e7b7,
+    .dependencies = .{
+        .drm = .{
+            .url = "git+https://git.lilithsemi.com/LilithSemi/drm.zig#2052f9db78f1ceddc7fd378aaf464467adcd3ee8",
+            .hash = "drm-0.1.0-ObSCT5MIAQDFo1jPV8V9pDsBZtveE6ZB1OOxy7ehbr_J",
+        },
+    },
+    .paths = .{
+        "build.zig.zon",
+        "build.zig",
+        "lib",
+        "examples",
+    },
+}
